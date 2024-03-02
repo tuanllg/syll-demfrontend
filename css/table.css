@@ -1,0 +1,66 @@
+@media (max-width: 960px) {
+  /* mất chữ khi chuyển qua màn table */
+  .hidden {
+    display: none;
+  }
+  /* chỉnh lại size cho thanh nav */
+  #navTab {
+    display: grid;
+    grid-template-columns: auto auto 10% auto auto;
+    justify-content: center;
+  }
+  /* chỉnh lại vị trí chữ banner */
+  #textBanner {
+    position: absolute;
+    width: 100%;
+    /* text-align: center; */
+    top: 30%;
+  }
+
+  /* chỉnh bố cục phần lý lịch làm việc */
+  .rowKinhNghiem {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+  .tamThoi1,
+  .tamThoi2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  /* chỉnh bố cục chứng chỉ-giải thưởng */
+  .ccGtNd1,
+  .ccGtNd2,
+  .ccGtNd3 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  #ccGtNdImg {
+    width: 100%;
+  }
+
+  /* chỉnh bố cục phần dự án */
+
+  .mg-bot0 {
+    margin-bottom: 0;
+  }
+  .mg-top20 {
+    margin-top: 20px;
+  }
+  .mg-bot20 {
+    margin-bottom: 20px;
+  }
+  .projectNd1,
+  .projectNd2,
+  .projectNd3 {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+  }
+
+  /* chỉnh footer */
+  #footer > .container {
+    margin-top: 20px;
+  }
+}

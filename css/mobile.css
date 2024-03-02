@@ -1,0 +1,98 @@
+@media (max-width: 768px) {
+  /* thông tin cá nhân */
+  #personal-info {
+    margin-top: 0;
+  }
+
+  /* thanh Navi */
+
+  #bannerPic {
+    overflow: hidden;
+  }
+  #textBanner {
+    position: absolute;
+    width: 100%;
+    /* text-align: center; */
+    top: 30%;
+  }
+  .dis-none {
+    display: none;
+  }
+  #navTab {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* grid-template-columns: auto auto 30% auto auto;
+    justify-content: center;
+    align-items: center; */
+  }
+  .navTabItem {
+    padding: 20px;
+    border: 0;
+  }
+  .navTabItemLast {
+    border: 0;
+  }
+
+  /* kinh nghiệm và kỹ năng cá nhân */
+  .rowKinhNghiem {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .tamThoi1,
+  .tamThoi2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .jobInfoUl {
+    margin-left: 20px;
+    color: rgb(1, 118, 157);
+  }
+  .pDam {
+    color: #000000;
+  }
+
+  /* chỉnh bố cục chứng chỉ-giải thưởng */
+  .chungChiGiaiThuongNd {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .ccGtNd1,
+  .ccGtNd2,
+  .ccGtNd3 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .ccGtNd2 {
+    padding-top: 30px;
+    border-left: 0;
+    border-top: 1px solid #f6a028;
+  }
+  #ccGtNdImg {
+    width: 100%;
+  }
+
+  /* dự án */
+  #projectNd {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .mg-bot0 {
+    margin-bottom: 0;
+  }
+  .mg-top20 {
+    margin-top: 20px;
+  }
+  .pd-top40 {
+    margin-top: 40px;
+  }
+  .mg-bot20 {
+    margin-bottom: 20px;
+  }
+}
